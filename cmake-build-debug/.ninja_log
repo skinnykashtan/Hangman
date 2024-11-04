@@ -1,0 +1,11 @@
+# ninja log v5
+15	697	7524639124404892	CMakeFiles/Hangman.dir/src/Input.cpp.obj	a99cf607196171d1
+4	1615	7524619358888118	CMakeFiles/Hangman.dir/main.cpp.obj	f8d86cda33554fc
+650	786	7524637897721421	Hangman.exe	cfa76001e3923f9
+25	1887	7524639136276385	CMakeFiles/Hangman.dir/src/WordList.cpp.obj	f37e5cdf7a03a4e8
+4	650	7524637896386964	CMakeFiles/Hangman.dir/src/Game.cpp.obj	465d33e943e1a9f9
+4	650	7524639123918863	CMakeFiles/Hangman.dir/src/Session.cpp.obj	bafe19efeea3a24e
+20	1873	7524639136135753	CMakeFiles/Hangman.dir/src/main.cpp.obj	cc7a4163ec09a382
+1	193	7524639779353483	build.ninja	babc1fef0e3f568d
+4	698	7524639852110529	CMakeFiles/Hangman.dir/src/Game.cpp.obj	1df6300247e58053
+699	851	7524639853603357	Hangman.exe	cfa76001e3923f9
