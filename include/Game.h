@@ -3,8 +3,8 @@
 
 #include "../include/Session.h"
 
-void gameState(const Session& s);
+void gameState(Session& s);
 
-void gameLoop(const Session& s);
+void gameLoop(Session& s);
 
 #endif

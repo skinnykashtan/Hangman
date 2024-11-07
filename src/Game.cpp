@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-void gameState(const Session& s) {
+void gameState(Session& s) {
     std::cout << std::endl;
 
     std::cout << "The word: ";
@@ -22,7 +22,7 @@ void gameState(const Session& s) {
     std::cout << "   Wrong guesses: " << s.getWrongGuesses() << std::endl;
 }
 
-void gameLoop(const Session& s) {
+void gameLoop(Session& s) {
     std::cout << "Welcome to Hangman" << std::endl;
     std::cout << "To win: guess the word. \tTo lose: run out of pluses." << std::endl;
 

@@ -7,19 +7,19 @@
 class Session {
 private:
     std::string word = WordList::getRandomWord();
-    mutable std::string wrongGuesses {"++++++"};
-    mutable std::string guessedLetters {};
+    std::string wrongGuesses {"++++++"};
+    std::string guessedLetters {};
 
 public:
     const std::string& getWord() const;
 
     const std::string& getGuessedLetters() const;
 
-    void setGuessedLetters(char letter) const;
+    void setGuessedLetters(char letter);
 
     const std::string& getWrongGuesses() const;
 
-    void setWrongGuess(char letter) const;
+    void setWrongGuess(char letter);
 
     bool allGuessesUsed() const;
 

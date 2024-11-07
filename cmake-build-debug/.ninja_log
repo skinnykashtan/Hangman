@@ -9,3 +9,9 @@
 1	193	7524639779353483	build.ninja	babc1fef0e3f568d
 4	698	7524639852110529	CMakeFiles/Hangman.dir/src/Game.cpp.obj	1df6300247e58053
 699	851	7524639853603357	Hangman.exe	cfa76001e3923f9
+23	855	7527072408089008	CMakeFiles/Hangman.dir/src/Session.cpp.obj	bafe19efeea3a24e
+4	1981	7527072419335438	CMakeFiles/Hangman.dir/src/main.cpp.obj	cc7a4163ec09a382
+4	824	7527078213208621	CMakeFiles/Hangman.dir/src/Game.cpp.obj	1df6300247e58053
+23	759	7527078394781010	CMakeFiles/Hangman.dir/src/Game.cpp.obj	1df6300247e58053
+6	1682	7527078403986698	CMakeFiles/Hangman.dir/src/main.cpp.obj	cc7a4163ec09a382
+1682	1831	7527078405460926	Hangman.exe	cfa76001e3923f9

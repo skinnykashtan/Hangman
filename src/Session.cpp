@@ -8,7 +8,7 @@ const std::string& Session::getGuessedLetters() const {
     return guessedLetters;
 }
 
-void Session::setGuessedLetters(char letter) const {
+void Session::setGuessedLetters(char letter) {
     guessedLetters += letter;
 }
 
@@ -16,7 +16,7 @@ const std::string& Session::getWrongGuesses() const {
     return wrongGuesses;
 }
 
-void Session::setWrongGuess(char letter) const {
+void Session::setWrongGuess(char letter) {
     for (size_t i = 0; i < wrongGuesses.size() + 1; ++i) {
         wrongGuesses[i] = wrongGuesses[i + 1];
     }
