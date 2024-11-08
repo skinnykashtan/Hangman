@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Hangman::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Hangman-Debug-d62db334b509850fb51a.json",
+					"jsonFile" : "target-Hangman-Debug-b5d0b0baa69fe5056280.json",
 					"name" : "Hangman",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/HP/Desktop/huber/Hangman/cmake-build-debug",
-		"source" : "C:/Users/HP/Desktop/huber/Hangman"
+		"build" : "C:/CPPProjects/Hangman/cmake-build-debug",
+		"source" : "C:/CPPProjects/Hangman"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }

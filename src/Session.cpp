@@ -1,10 +1,10 @@
 #include "../include/Session.h"
 
-const std::string& Session::getWord() const {
+std::string_view Session::getWord() const {
     return word;
 }
 
-const std::string& Session::getGuessedLetters() const {
+std::string_view Session::getGuessedLetters() const {
     return guessedLetters;
 }
 
@@ -12,7 +12,7 @@ void Session::setGuessedLetters(char letter) {
     guessedLetters += letter;
 }
 
-const std::string& Session::getWrongGuesses() const {
+std::string_view Session::getWrongGuesses() const {
     return wrongGuesses;
 }
 

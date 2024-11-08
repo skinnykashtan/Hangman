@@ -3,6 +3,7 @@
 
 #include "../include/WordList.h"
 #include <string>
+#include <string_view>
 
 class Session {
 private:
@@ -11,19 +12,19 @@ private:
     std::string guessedLetters {};
 
 public:
-    const std::string& getWord() const;
+    [[nodiscard]] std::string_view getWord() const;
 
-    const std::string& getGuessedLetters() const;
+    [[nodiscard]] std::string_view getGuessedLetters() const;
 
     void setGuessedLetters(char letter);
 
-    const std::string& getWrongGuesses() const;
+    [[nodiscard]] std::string_view getWrongGuesses() const;
 
     void setWrongGuess(char letter);
 
-    bool allGuessesUsed() const;
+    [[nodiscard]] bool allGuessesUsed() const;
 
-    bool hasUserWon() const;
+    [[nodiscard]] bool hasUserWon() const;
 };
 
 #endif
